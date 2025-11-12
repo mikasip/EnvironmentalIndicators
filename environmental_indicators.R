@@ -51,8 +51,8 @@ ivae_radial3 <- iVAE_radial_spatio_temporal(
     batch_size = 64,
     seed = seed
 )
-save_with_tf(ivae_radial3, "env_ind_ivae_radial3_v2", file = "env_ind_ivae_radial3_v2.RData")
-ivae_radial3 <- load_with_tf("env_ind_ivae_radial3_v2.RData")
+save_with_tf(ivae_radial3, "env_ind_ivae_radial3_v2", file = "models/env_ind_ivae_radial3_v2.RData")
+ivae_radial3 <- load_with_tf("models/env_ind_ivae_radial3_v2.RData")
 elbo3 <- ivae_radial3$elbo
 
 ivae_radial4 <- iVAE_radial_spatio_temporal(
@@ -68,8 +68,8 @@ ivae_radial4 <- iVAE_radial_spatio_temporal(
     batch_size = 64,
     seed = seed
 )
-save_with_tf(ivae_radial4, "env_ind_ivae_radial4_v2", file = "env_ind_ivae_radial4_v2.RData")
-ivae_radial4 <- load_with_tf("env_ind_ivae_radial4_v2.RData")
+save_with_tf(ivae_radial4, "env_ind_ivae_radial4_v2", file = "models/env_ind_ivae_radial4_v2.RData")
+ivae_radial4 <- load_with_tf("models/env_ind_ivae_radial4_v2.RData")
 elbo4 <- ivae_radial4$elbo
 
 ivae_radial5 <- iVAE_radial_spatio_temporal(
@@ -85,8 +85,8 @@ ivae_radial5 <- iVAE_radial_spatio_temporal(
     batch_size = 64,
     seed = seed
 )
-save_with_tf(ivae_radial5, "env_ind_ivae_radial5_v2", file = "env_ind_ivae_radial5_v2.RData")
-ivae_radial5 <- load_with_tf("env_ind_ivae_radial5_v2.RData")
+save_with_tf(ivae_radial5, "env_ind_ivae_radial5_v2", file = "models/env_ind_ivae_radial5_v2.RData")
+ivae_radial5 <- load_with_tf("models/env_ind_ivae_radial5_v2.RData")
 elbo5 <- ivae_radial5$elbo
 
 ivae_radial6 <- iVAE_radial_spatio_temporal(
@@ -102,8 +102,8 @@ ivae_radial6 <- iVAE_radial_spatio_temporal(
     batch_size = 64,
     seed = seed
 )
-save_with_tf(ivae_radial6, "env_ind_ivae_radial6_v2", file = "env_ind_ivae_radial6_v2.RData")
-ivae_radial6 <- load_with_tf("env_ind_ivae_radial6_v2.RData")
+save_with_tf(ivae_radial6, "env_ind_ivae_radial6_v2", file = "models/env_ind_ivae_radial6_v2.RData")
+ivae_radial6 <- load_with_tf("models/env_ind_ivae_radial6_v2.RData")
 elbo6 <- ivae_radial6$elbo
 
 ivae_radial7 <- iVAE_radial_spatio_temporal(
@@ -119,8 +119,8 @@ ivae_radial7 <- iVAE_radial_spatio_temporal(
     batch_size = 64,
     seed = seed
 )
-save_with_tf(ivae_radial7, "env_ind_ivae_radial7_v2", file = "env_ind_ivae_radial7_v2.RData")
-ivae_radial7 <- load_with_tf("env_ind_ivae_radial7_v2.RData")
+save_with_tf(ivae_radial7, "env_ind_ivae_radial7_v2", file = "models/env_ind_ivae_radial7_v2.RData")
+ivae_radial7 <- load_with_tf("models/env_ind_ivae_radial7_v2.RData")
 elbo7 <- ivae_radial7$elbo
 
 ivae_radial8 <- iVAE_radial_spatio_temporal(
@@ -136,8 +136,8 @@ ivae_radial8 <- iVAE_radial_spatio_temporal(
     batch_size = 64,
     seed = seed
 )
-save_with_tf(ivae_radial8, "env_ind_ivae_radial8_v2", file = "env_ind_ivae_radial8_v2.RData")
-ivae_radial8 <- load_with_tf("env_ind_ivae_radial8_v2.RData")
+save_with_tf(ivae_radial8, "env_ind_ivae_radial8_v2", file = "models/env_ind_ivae_radial8_v2.RData")
+ivae_radial8 <- load_with_tf("models/env_ind_ivae_radial8_v2.RData")
 elbo8 <- ivae_radial8$elbo
 
 ivae_radial9 <- iVAE_radial_spatio_temporal(
@@ -153,8 +153,8 @@ ivae_radial9 <- iVAE_radial_spatio_temporal(
     batch_size = 64,
     seed = seed
 )
-save_with_tf(ivae_radial9, "env_ind_ivae_radial9_v2", file = "env_ind_ivae_radial9_v2.RData")
-ivae_radial9 <- load_with_tf("env_ind_ivae_radial9_v2.RData")
+save_with_tf(ivae_radial9, "env_ind_ivae_radial9_v2", file = "models/env_ind_ivae_radial9_v2.RData")
+ivae_radial9 <- load_with_tf("models/env_ind_ivae_radial9_v2.RData")
 elbo9 <- ivae_radial9$elbo
 
 ivae_radial10 <- iVAE_radial_spatio_temporal(
@@ -170,8 +170,8 @@ ivae_radial10 <- iVAE_radial_spatio_temporal(
     batch_size = 64,
     seed = seed
 )
-save_with_tf(ivae_radial10, "env_ind_ivae_radial10_v2", file = "env_ind_ivae_radial10_v2.RData")
-ivae_radial10 <- load_with_tf("env_ind_ivae_radial10_v2.RData")
+save_with_tf(ivae_radial10, "env_ind_ivae_radial10_v2", file = "models/env_ind_ivae_radial10_v2.RData")
+ivae_radial10 <- load_with_tf("models/env_ind_ivae_radial10_v2.RData")
 elbo10 <- ivae_radial10$elbo
 
 ivae_radial11 <- iVAE_radial_spatio_temporal(
@@ -187,8 +187,8 @@ ivae_radial11 <- iVAE_radial_spatio_temporal(
     batch_size = 64,
     seed = seed
 )
-save_with_tf(ivae_radial11, "env_ind_ivae_radial11_v2", file = "env_ind_ivae_radial11_v2.RData")
-ivae_radial11 <- load_with_tf("env_ind_ivae_radial11_v2.RData")
+save_with_tf(ivae_radial11, "env_ind_ivae_radial11_v2", file = "models/env_ind_ivae_radial11_v2.RData")
+ivae_radial11 <- load_with_tf("models/env_ind_ivae_radial11_v2.RData")
 elbo11 <- ivae_radial11$elbo
 
 ivae_radial12 <- iVAE_radial_spatio_temporal(
@@ -204,8 +204,8 @@ ivae_radial12 <- iVAE_radial_spatio_temporal(
     batch_size = 64,
     seed = seed
 )
-save_with_tf(ivae_radial12, "env_ind_ivae_radial12_v2", file = "env_ind_ivae_radial12_v2.RData")
-ivae_radial12 <- load_with_tf("env_ind_ivae_radial12_v2.RData")
+save_with_tf(ivae_radial12, "env_ind_ivae_radial12_v2", file = "models/env_ind_ivae_radial12_v2.RData")
+ivae_radial12 <- load_with_tf("models/env_ind_ivae_radial12_v2.RData")
 elbo12 <- ivae_radial12$elbo
 
 ivae_radial13 <- iVAE_radial_spatio_temporal(
@@ -221,8 +221,8 @@ ivae_radial13 <- iVAE_radial_spatio_temporal(
     batch_size = 64,
     seed = seed
 )
-save_with_tf(ivae_radial13, "env_ind_ivae_radial13_v2", file = "env_ind_ivae_radial13_v2.RData")
-ivae_radial13 <- load_with_tf("env_ind_ivae_radial13_v2.RData")
+save_with_tf(ivae_radial13, "env_ind_ivae_radial13_v2", file = "models/env_ind_ivae_radial13_v2.RData")
+ivae_radial13 <- load_with_tf("models/env_ind_ivae_radial13_v2.RData")
 elbo13 <- ivae_radial13$elbo
 
 ivae_radial14 <- iVAE_radial_spatio_temporal(
@@ -238,8 +238,8 @@ ivae_radial14 <- iVAE_radial_spatio_temporal(
     batch_size = 64,
     seed = seed
 )
-save_with_tf(ivae_radial14, "env_ind_ivae_radial14_v2", file = "env_ind_ivae_radial14_v2.RData")
-ivae_radial14 <- load_with_tf("env_ind_ivae_radial14_v2.RData")
+save_with_tf(ivae_radial14, "env_ind_ivae_radial14_v2", file = "models/env_ind_ivae_radial14_v2.RData")
+ivae_radial14 <- load_with_tf("models/env_ind_ivae_radial14_v2.RData")
 elbo14 <- ivae_radial14$elbo
 
 elbos <- c(
@@ -288,8 +288,8 @@ ivae_radial10_final <- iVAE_radial_spatio_temporal(
     batch_size = 64,
     seed = seed
 )
-save_with_tf(ivae_radial10_final, "env_ind_ivae_radial10_final", file = "env_ind_ivae_radial10_final.RData")
-ivae_radial10_final <- load_with_tf("env_ind_ivae_radial10_final.RData")
+save_with_tf(ivae_radial10_final, "env_ind_ivae_radial10_final", file = "models/env_ind_ivae_radial10_final.RData")
+ivae_radial10_final <- load_with_tf("models/env_ind_ivae_radial10_final.RData")
 # Shapley values for ICs
 
 X <- as.data.frame(ivae_radial10_final$IC)
@@ -481,8 +481,8 @@ ivaear_radial10_final <- iVAEar_radial(
     batch_size = 64,
     seed = seed
 )
-save_with_tf(ivaear_radial10_final, "env_ind_ivaear1_radial10_final_v2", file = "env_ind_ivaear1_radial10_final_v2.RData")
-ivaear1_radial10_final <- load_with_tf("env_ind_ivaear1_radial10_final_v2.RData")
+save_with_tf(ivaear_radial10_final, "env_ind_ivaear1_radial10_final_v2", file = "models/env_ind_ivaear1_radial10_final_v2.RData")
+ivaear1_radial10_final <- load_with_tf("models/env_ind_ivaear1_radial10_final_v2.RData")
 
 library(kernelshap)
 library(xtable)
